@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Saidbnu harif</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="#">@saidbnuharif</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-white"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/bootstrap-5.0.2-dist/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/bootstrap-5.0.2-dist/about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/bootstrap-5.0.2-dist/project.html">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="http://127.0.0.1:5500/bootstrap-5.0.2-dist/Contact.html">Contact</a>   
+        </li>
+    </ul>
+</div>
+</div>
+</nav>
+
+  <div class="col-md-6 border-left py-3">
+    <h1>Contact form</h1>
+    <div class="form-group">
+        <h5 for="name">Name</h5>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        placeholder="Enter name"
+        />
+    </div>
+    <div class="form-group">
+        <h5 for="email">Email</h5>
+        <input
+        type="email"
+        class="form-control"
+        id="email"
+        placeholder="Enter email"
+      />
+    </div>
+    <div class="form-group">
+        <h5 for="message">Message</h5>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+    </div>
+    <br>
+    <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+</div>
+
+  <!--footer-->
+  <div class="container footer-sec">
+      <div class="row text-center">
+          <div class="col-lg-12">
+              <h1>Follow Me</h1>
+            </div>
+            <div class="col-lg-12">
+        <div class="d-flex justify-content-center">
+            <a href="https://www.facebook.com/profile.php?id=61550092613372&mibextid=9R9pXO" target="_blank"><i
+                class="fa fa-facebook-official me-2" aria-hidden="true"></i></a>
+                <a href="https://instagram.com/hxriif.__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><i
+                    class="fa fa-instagram me-2" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/home" target="_blank"><i class="fa fa-twitter-square me-2"
+            aria-hidden="true"></i></a>
+            <a href="https://github.com/hxriif" target="_blank"><i class="fa fa-github me-2" aria-hidden="true"></i></a>
+            <a href="www.linkedin.com/in/saidbnu-harif-c-538521272" target="_blank"><i class="fa fa-linkedin-square me-2"
+              aria-hidden="true"></i></a>
+            </div>
+            <div class="col-lg-12">
+          <p> Designed And Build By Saidbnu Harif</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script src="portfoli.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("r8m0XjaiEn6dbp8DI");
+    })();
+</script>
+<script src="../bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
